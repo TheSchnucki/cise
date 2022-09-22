@@ -1,8 +1,8 @@
 Hooks.on('diceSoNiceReady', (dice3d) => {
 
     dice3d.addSystem({
-        id: "cisepunk",
-        name: "⁂ CisePunk (d6, special)"
+        id: "dork",
+        name: "⁂ Dork (d6, special)"
     }, false);
 
     dice3d.addDicePreset({
@@ -15,6 +15,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             'modules/cise/artwork/cisepunk/d6-5.webp',
             'modules/cise/artwork/cisepunk/d6-6.webp'
         ],
-        system: "cisepunk"
+        system: "dork"
     });
 });
