@@ -35,4 +35,23 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         ],
         system: "cisepunk"
     });
+
+    dice3d.addSystem({id:"scrible",
+      name:"⁂ Scrible (d6, special)"
+    },false);
+
+    dice3d.addDicePreset({
+      type:"d6",
+      labels:[
+        'modules/cise/artwork/scrible/d6-1.webp',
+        'modules/cise/artwork/scrible/d6-2.webp',
+        'modules/cise/artwork/scrible/d6-3.webp',
+        'modules/cise/artwork/scrible/d6-4.webp',
+        'modules/cise/artwork/scrible/d6-5.webp',
+        'modules/cise/artwork/scrible/d6-6.webp'
+      ],
+  	system:"scrible"
+    });
+
+
 });
