@@ -33,6 +33,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
             'modules/cise/artwork/cisepunk/d6-5.webp',
             'modules/cise/artwork/cisepunk/d6-6.webp'
         ],
-        system: "scriblemotions"
+        system: "cisepunk"
     });
 });
