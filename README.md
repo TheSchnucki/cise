@@ -1,2 +1,2 @@
 # cise
- Additional dice designs for the DiceSoNice! mocule
+ Additional dice designs for the DiceSoNice! module
