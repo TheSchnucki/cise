@@ -13,7 +13,13 @@
     "verified": "10"
   },
   "scripts": [
-  "./scripts/"
+  "./scripts/cise.js"
+  ],
+  "dependencies": [
+    {
+      "type": "module",
+      "name": "dice-so-nice"
+    }
   ],
   "url": "https://github.com/TheSchnucki/cise",
   "manifest": "https://raw.githubusercontent.com/TheSchnucki/releases/download/0.0.1/module.json",
