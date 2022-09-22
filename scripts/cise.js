@@ -20,7 +20,7 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 
     dice3d.addSystem({
         id: "cisepunk",
-        name: "CisePunk (d6)"
+        name: "⁂ cisepunk (d6, special)"
     }, false);
 
     dice3d.addDicePreset({
