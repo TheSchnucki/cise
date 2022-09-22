@@ -1,7 +1,7 @@
 {
   "id": "cise",
   "title": "Cise - dice designs",
-  "description": "A simple module created as a demo for working in the Foundry Virtual Tabletop framework.",
+  "description": "Additional dice designs for the DiceSoNice! mocule",
   "authors": [
     {
     "name": "theSchnucki"
