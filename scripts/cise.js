@@ -18,24 +18,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         system: "scriblemotion"
     });
 
-    dice3d.addSystem({
-        id: "cisepunk",
-        name: "⁂ cisepunk (d6, special)"
-    }, false);
-
-    dice3d.addDicePreset({
-        type: "d6",
-        labels: [
-            'modules/cise/artwork/cisepunk/d6-1.webp',
-            'modules/cise/artwork/cisepunk/d6-2.webp',
-            'modules/cise/artwork/cisepunk/d6-3.webp',
-            'modules/cise/artwork/cisepunk/d6-4.webp',
-            'modules/cise/artwork/cisepunk/d6-5.webp',
-            'modules/cise/artwork/cisepunk/d6-6.webp'
-        ],
-        system: "cisepunk"
-    });
-
     dice3d.addSystem({id:"scrible",
       name:"⁂ Scrible (d6, special)"
     },false);
@@ -51,6 +33,24 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         'modules/cise/artwork/scrible/d6-6.webp'
       ],
   	system:"scrible"
+    });
+
+
+    dice3d.addSystem({id:"cybercise",
+      name:"⁂ CyberCise (d6, special)"
+    },false);
+
+    dice3d.addDicePreset({
+      type:"d6",
+      labels:[
+        'modules/cise/artwork/cybercise/d6-1.webp',
+        'modules/cise/artwork/cybercise/d6-2.webp',
+        'modules/cise/artwork/cybercise/d6-3.webp',
+        'modules/cise/artwork/cybercise/d6-4.webp',
+        'modules/cise/artwork/cybercise/d6-5.webp',
+        'modules/cise/artwork/cybercise/d6-6.webp'
+      ],
+    system:"cybercise"
     });
 
 
