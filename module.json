@@ -6,10 +6,16 @@
     {
     "name": "theSchnucki"
     }
-    ],
+  ],
   "version": "0.0.1",
   "compatibility": {
     "minimum": "9",
     "verified": "10"
-  }
+  },
+  "scripts": [
+  "./scripts/"
+  ],
+  "url": "https://github.com/TheSchnucki/cise",
+  "manifest": "https://raw.githubusercontent.com/TheSchnucki/releases/download/0.1.1/module.json",
+  "download": "https://raw.githubusercontent.com/TheSchnucki/releases/download/0.1.1/cise.zip"
 }
