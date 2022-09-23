@@ -50,6 +50,14 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         'modules/cise/artwork/cybercise/d6-5.webp',
         'modules/cise/artwork/cybercise/d6-6.webp'
       ],
+      bumpMaps:[
+        'modules/cise/artwork/cybercise/d6-1-bump.webp',
+        'modules/cise/artwork/cybercise/d6-2-bump.webp',
+        'modules/cise/artwork/cybercise/d6-3-bump.webp',
+        'modules/cise/artwork/cybercise/d6-4-bump.webp',
+        'modules/cise/artwork/cybercise/d6-5-bump.webp',
+        'modules/cise/artwork/cybercise/d6-6-bump.webp'
+    ],
     system:"cybercise"
     });
 
